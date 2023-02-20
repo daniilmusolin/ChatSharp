@@ -82,7 +82,9 @@ namespace ChatParse
             {
                 foreach (var class_ in commands_class)
                 {
-                    MethodInfo[]? methods = class_.GetMethods();
+                    MethodInfo[]? methods = class_.GetMethods(BindingFlags.Static | BindingFlags.NonPublic |
+                                                              BindingFlags.Public | BindingFlags.Instance  |
+                                                              BindingFlags.IgnoreReturn);
                     for (int i = 0; i < methods.GetLength(0); i++)
                     {
                         object[]? attributesArray = methods[i].GetCustomAttributes(true);
