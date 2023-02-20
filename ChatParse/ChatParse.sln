@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatParse", "ChatParse.csproj", "{E7878B2D-BD57-4EEF-BA48-5C078D918716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		a|Any CPU = a|Any CPU
+		c|Any CPU = c|Any CPU
+		D|Any CPU = D|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		t|Any CPU = t|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.a|Any CPU.ActiveCfg = a|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.a|Any CPU.Build.0 = a|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.c|Any CPU.ActiveCfg = c|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.c|Any CPU.Build.0 = c|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.D|Any CPU.ActiveCfg = D|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.D|Any CPU.Build.0 = D|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.t|Any CPU.ActiveCfg = t|Any CPU
+		{E7878B2D-BD57-4EEF-BA48-5C078D918716}.t|Any CPU.Build.0 = t|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {454735B2-5AAA-420A-8B0D-E13BE0EC04A1}
+	EndGlobalSection
+EndGlobal
