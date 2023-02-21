@@ -96,6 +96,7 @@ namespace ChatParse
                                 // If we found the "CommandAttribute" attribute, then we
                                 // register this method using the metadata "name" - the key, and MethodInfo - the value
                                 CommandAttribute? attributeObject = (CommandAttribute)item;
+                                if (commands.ContainsKey(attributeObject.name)) throw new Exception("You cannot have multiple implementations of a command");
                                 commands.Add(attributeObject.name, methods[i]);
                             }
                         }
